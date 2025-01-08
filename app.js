@@ -1,7 +1,3 @@
-app.js:
-
-
-
 const API_URL = './productos.json';
 let productos = [];
 let carrito = JSON.parse(localStorage.getItem('carrito')) || [];

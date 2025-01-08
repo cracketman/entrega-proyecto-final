@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito - Tienda Mia</title>
+  <link rel="stylesheet" href="estilo.css">
+  <style>
+    /* Estilos para el mensaje de notificación */
+    #mensaje {
+      display: none; /* Oculto por defecto */
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #ffffff; /* Color de fondo */
+      color: rgba(0, 0, 0, 0.8); /* Color del texto */
+      padding: 15px 20px;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      font-size: 16px;
+      z-index: 1000; /* Para que se muestre sobre otros elementos */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Carrito</h1>
+    <button onclick="window.location.href='index.html'">Volver</button>
+  </header>
+
+  <main>
+    <!-- Contenedor de los productos en el carrito -->
+    <div id="carrito" class="productos"></div>
+
+    <!-- Total del carrito y botón de finalizar -->
+    <div class="carrito-total">
+      <h2 id="total">Total: $0.00</h2>
+      <button id="finalizar-compra">Finalizar Compra</button>
+    </div>
+  </main>
+
+  <!-- Mensaje de agradecimiento -->
+  <div id="mensaje">¡Gracias por su compra!</div>
+
+  <script src="app.js"></script>
+</body>
+</html>
