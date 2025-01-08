@@ -1,0 +1,28 @@
+login.html:
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio de Sesión - Mercado Libre</title>
+  <link rel="stylesheet" href="js/estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Mercado Libre</h1>
+  </header>
+  <main class="login-container">
+    <form id="login-form">
+      <h2>Inicia Sesión o Regístrate</h2>
+      <input type="text" id="usuario" placeholder="Nombre de usuario" required>
+      <input type="password" id="contrasena" placeholder="Contraseña" required>
+      <button type="submit">Iniciar Sesión</button>
+    </form>
+  </main>
+</body>
+<script src="js/app.js"></script>
+</html>

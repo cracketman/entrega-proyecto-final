@@ -1,0 +1,45 @@
+index.html:
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mercado Libre.com</title>
+  <link rel="stylesheet" href="js/estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Mercado Libre</h1>
+    <button id="logout">Cerrar Sesión</button>
+    
+  </header>
+  <script>
+        // Agregar evento al botón de logout
+        document.getElementById("logout").addEventListener("click", function() {
+            alert("SE A CERRADO LA SESION CORRECTAMENTE.");
+            // Aquí puedes redirigir o realizar otra acción
+            window.location.href = "login.html"; // Redirige a la página de inicio de sesión
+        });
+    </script>
+  <main>
+    <div class="buscador">
+      <input type="text" id="buscar" placeholder="Buscar en Mercado Libre">
+      <select id="filtro-categoria">
+        <option value="">Todos</option>
+        <option value="Ropa">Ropa</option>
+        <option value="Electrónica">Electrónica</option>
+      </select>
+    </div>
+    <div id="productos" class="productos"></div>
+  </main>
+  <footer>
+    <button id="ver-carrito" onclick="window.location.href='carrito.html'">Carrito</button>
+  </footer>
+  <div id="notificacion"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+productos.json:
+
+
+
+
+[
+  { "id": 1, "nombre": "Remera", "precio": 23.39, "categoria": "Ropa", "imagen": "https://www.bdamvd.uy/wp-content/uploads/2020/09/remera-nino-blanco-150x150.jpg" },
+  { "id": 2, "nombre": "Pantalones", "precio": 28.35, "categoria": "Ropa", "imagen": "https://bigbangmonterrey.com/wp-content/uploads/2022/09/pantalon-ares-caballero-150x150.jpg" },
+  { "id": 3, "nombre": "Galaxy buds 3 pro", "precio": 350.39, "categoria": "Electrónica", "imagen": "https://s1.kuantokusta.pt/img_upload/produtos_imagemsom/600027_2_samsung-galaxy-buds3-pro-white.jpg" },
+  { "id": 4, "nombre": "Nike jordan 11", "precio": 310.39, "categoria": "Ropa", "imagen": "https://thumblr.uniid.it/product/235334/18ff96d87154.jpg" },
+  { "id": 5, "nombre": "Samsung Galaxy s24 ultra", "precio": 1600.39, "categoria": "Electrónica", "imagen": "https://thumb.pccomponentes.com/w-150-150/articles/1080/10805958/1333-samsung-galaxy-s24-ultra-12-512gb-negro-titanium-libre.jpg" },
+  { "id": 6, "nombre": "Lavarropas Automatico Samsung", "precio": 530.23, "categoria": "Electrónica", "imagen": "https://www.megatone.net/images/Articulos/thumb2x/38/MKT0005VIS-3.jpg" },
+  { "id": 7, "nombre": "Aqua di gio Profondo", "precio": 200.13, "categoria": "Ropa", "imagen": "https://www.fragrancereview.com/php_assets/uploads/giorgio-armani-acqua-di-gio-profondo-150x150.jpeg" },
+  { "id": 8, "nombre": "Aire acondicionado Samsung split", "precio": 700.50, "categoria": "Electrónica", "imagen": "https://naldoar.vtexassets.com/arquivos/ids/169283-150-auto?v=638242428123170000&width=150&height=auto&aspect=true" },
+  { "id": 9, "nombre": "Iphone 16 Pro Max", "precio": 1500.36, "categoria": "Electrónica", "imagen": "https://mobilekoto.com/wp-content/uploads/2023/07/Apple-iPhone-16-Price-in-USA-150x150.jpg" },
+  { "id": 10, "nombre": "Campera Nike", "precio": 79.39, "categoria": "Ropa", "imagen": "https://coppelar.vtexassets.com/arquivos/ids/1756658-150-auto?v=638173377111430000&width=150&height=auto&aspect=true" },
+  { "id": 11, "nombre": "Camiseta Argentina", "precio": 98.63, "categoria": "Ropa", "imagen": "https://desingsaimari.com/wp-content/uploads/2022/11/Argentina-150x150.png" },
+  { "id": 12, "nombre": "Asus Rog Strix G17", "precio": 2149.47, "categoria": "Electrónica", "imagen": "https://realplaza.vtexassets.com/arquivos/ids/33360330-150-auto?v=638234088663730000&width=150&height=auto&aspect=true" }
+]

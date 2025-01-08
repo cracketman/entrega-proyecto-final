@@ -1,0 +1,61 @@
+carrito.html:
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito - Mercado Libre</title>
+  <link rel="stylesheet" href="js/estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Carrito</h1>
+    <button onclick="window.location.href='index.html'">Volver</button>
+  </header>
+  <main>
+    <div id="carrito" class="productos"></div>
+    <div class="carrito-total">
+      <h2 id="total"></h2>
+    
+      <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>finalizar-compra</title>
+    <style>
+        #mensaje {
+            display: none; /* Oculto por defecto */
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #ffffff; /* Color de fondo (verde) */
+            color: rgba(0, 0, 0, 0.641); /* Color del texto */
+            padding: 15px 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            font-size: 16px;
+            z-index: 1000; /* Para que se muestre sobre otros elementos */
+        }
+    </style>
+</head>
+<body>
+  <button id="finalizar-compra">Finalizar Compra</button>
+
+  <div id="mensaje">GRACIAS POR SU COMPRA</div>
+  </div>
+
+
+</body>
+</html>
+    </div>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
